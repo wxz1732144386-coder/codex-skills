@@ -1,0 +1,4 @@
+interface:
+  display_name: "LibTV 分镜提示词"
+  short_description: "逐镜拆解动作、造型、人脸、背景和硬切，再写提示词"
+  default_prompt: "使用 $libtv-storyboard-prompt，逐镜细致拆解我直接提供的视频：动作、服装发型、面部状态、背景、机位和实际切点；需要提示词时结合当次 LibTV 连线素材，写一条可直接复制的中文提示词。参考视频不上传 LibTV。"
