@@ -17,3 +17,13 @@
 也可以将仓库克隆到本地，再把整个 `skills/libtv-storyboard-prompt` 目录复制到该电脑的 `~/.codex/skills/` 下。安装后在新对话中使用 `$libtv-storyboard-prompt`。
 
 GitHub 仓库用于保存和分发技能；在另一台电脑登录 Codex 后，仍需安装一次。
+
+## 擦边舞蹈替换人物
+
+提供原舞蹈视频和 LibTV 连线图，将目标模特图连到同一个生成节点。技能会按当次素材编号编写一段可复制的中文提示词，默认使用 Wan 3.0、720P。模特图控制人物外观和穿搭，原视频控制舞步、节奏和镜头。
+
+在另一台电脑的 Codex 中发送以下安装指令：
+
+> 请从 `wxz1732144386-coder/codex-skills` 仓库的 `skills/libtv-dance-character-replacement` 路径安装技能。
+
+安装后，在新对话中使用 `$libtv-dance-character-replacement`。技能文件位于 [skills/libtv-dance-character-replacement](skills/libtv-dance-character-replacement)。
